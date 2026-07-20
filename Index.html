@@ -1509,7 +1509,7 @@ function bindPage(){
 
   // forms
   bindClick('newsBtn',()=>{const e=document.getElementById('newsEmail');if(e.value){toast('Welcome to the inner circle ✦');e.value='';}else toast('Please enter your email');});
-  bindClick('contactSend',()=>toast('Message sent — we\'ll reply within a day'));
+  bindClick('contactSend',()=>toast('Message sent — we will reply within a day'));
   bindClick('loginBtn',()=>{state.user='Ananya';toast('Welcome back');location.hash='#/profile';});
   bindClick('regBtn',()=>{state.user='Ananya';toast('Account created ✦');location.hash='#/profile';});
   bindClick('saveProfile',()=>toast('Profile updated'));
